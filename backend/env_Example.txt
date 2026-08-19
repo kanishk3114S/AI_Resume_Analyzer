@@ -1,0 +1,13 @@
+NODE_ENV=development
+PORT=5000
+
+# Sensitive secrets - keep these private and do not commit to source control
+MONGO_URL=
+JWT_SECRET = 
+CLIENT_ORIGIN=
+GEMINI_API_KEY=
+
+# Non-sensitive runtime setting
+JWT_EXPIRES_IN=
+COOKIE_NAME=arr_token
+GEMINI_MODEL=
